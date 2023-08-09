@@ -9,9 +9,8 @@ customization-meta {
 }
 
 customization {
-  restart_on_load = false
-  name = mc_cave_animation_2cfb5f2c6ab641c1
-  action = animatebackground
+  path = resources/fondo3.png
+  action = texturizebackground
 }
 
 customization {
@@ -32,14 +31,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = -10
+  x = -41
   action = movebutton
-  y = 90
+  y = 33
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 20
+  width = 80
   action = resizebutton
   height = 20
 }
@@ -55,8 +54,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/config2.png
-  backgroundnormal = resources/config.png
+  backgroundhovered = resources/ajustes2.png
+  backgroundnormal = resources/ajustes.png
 }
 
 customization {
@@ -71,14 +70,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 12
+  x = -41
   action = movebutton
-  y = 90
+  y = 54
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 19
+  width = 80
   action = resizebutton
   height = 20
 }
@@ -94,8 +93,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/cerrar2.png
-  backgroundnormal = resources/cerrar.png
+  backgroundhovered = resources/salida2.png
+  backgroundnormal = resources/salida.png
 }
 
 customization {
@@ -114,8 +113,13 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -33
+  x = -30
   action = movebutton
   y = 90
 }
@@ -128,20 +132,16 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources/lang2.png
-  backgroundnormal = resources/lang.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   seconds = 4.0
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
   action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
 }
 
 customization {
@@ -163,15 +163,6 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttonlabel
   value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources/botonjugar2.png
-  backgroundnormal = resources/botonjugar.png
 }
 
 customization {
@@ -232,5 +223,58 @@ customization {
   actionid = 87e3a418-2f8d-4cf0-88d1-1bc589ff50ca1690916969512
   y = 0
   height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = joinserver;161.129.182.138:25565%btnaction_splitter_fm%
+  backgroundhovered = resources/jugar2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = -41
+  width = 80
+  action = addbutton
+  actionid = 4f271ad3-54f5-4111-9ec5-8b75e80a714e1691012677556
+  y = 12
+  delayappearance = true
+  backgroundnormal = resources/jugar.png
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 4.0
+  path = resources/logo.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -59
+  width = 118
+  action = addtexture
+  actionid = 501f7b09-0a89-4600-8aa2-36a933fdb67d1691535837466
+  y = -98
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 4.0
+  path = resources/crysis_studio.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -50
+  width = 100
+  action = addtexture
+  actionid = 60565dfd-d362-4bd5-8a6a-ef88921048d61691538160225
+  y = 91
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
 }
 

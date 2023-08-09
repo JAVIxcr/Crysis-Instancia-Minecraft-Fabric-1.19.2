@@ -1,5 +1,5 @@
 version:3120
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -32,14 +32,14 @@ entityDistanceScaling:1.0
 guiScale:3
 particles:0
 maxFps:120
-graphicsMode:1
+graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","loadmyresources.hiddenpack","file/Crysis ResourcePack by JAVIxcr.zip"]
+resourcePacks:["loadmyresources.hiddenpack","vanilla","Fabric Mods","file/Crysis ResourcePack by JAVIxcr.zip"]
 incompatibleResourcePacks:["loadmyresources.hiddenpack"]
-lastServer:
+lastServer:161.129.182.138:25565
 lang:es_es
 soundDevice:""
 chatVisibility:0
@@ -58,19 +58,19 @@ chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:1
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -84,12 +84,12 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.keyboard.left.control
+key_key.sneak:key.keyboard.left.control
+key_key.sprint:key.keyboard.left.shift
 key_key.drop:key.keyboard.q
-key_key.inventory:key.keyboard.e
+key_key.inventory:key.keyboard.tab
 key_key.chat:key.keyboard.t
-key_key.playerlist:key.keyboard.tab
+key_key.playerlist:key.keyboard.grave.accent
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
@@ -111,11 +111,13 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 soundCategory_master:0.5198831
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

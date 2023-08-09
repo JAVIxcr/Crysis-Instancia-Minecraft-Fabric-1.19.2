@@ -1,9 +1,9 @@
 {
-  "semanticVersion": "1.6.2",
+  "semanticVersion": "1.6.5",
   "updateInfo": {
-    "en_us": "Iris 1.6.2 has released, with performance improvements and bug fixes. Download it at: {link}"
+    "en_us": "Iris 1.6.5 has released, with performance improvements and bug fixes, along with some minor features. Download it at: {link}"
   },
   "modHost": "Modrinth",
   "modDownload": "https://modrinth.com/mod/iris",
-  "installer": "https://irisshaders.net"
+  "installer": "https://irisshaders.dev"
 }
