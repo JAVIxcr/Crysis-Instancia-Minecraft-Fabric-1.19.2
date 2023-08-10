@@ -9,8 +9,9 @@ customization-meta {
 }
 
 customization {
-  path = resources/fondo3.png
-  action = texturizebackground
+  restart_on_load = false
+  name = onlyup_269aeac93a324126
+  action = animatebackground
 }
 
 customization {
@@ -60,7 +61,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  seconds = 4.0
+  seconds = 2.0
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -99,7 +100,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 4.0
+  seconds = 2.0
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -228,7 +229,7 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  delayappearanceseconds = 4.0
+  delayappearanceseconds = 2.0
   buttonaction = joinserver;161.129.182.138:25565%btnaction_splitter_fm%
   backgroundhovered = resources/jugar2.png
   label = 
@@ -248,33 +249,33 @@ customization {
 
 customization {
   orientation = mid-centered
-  delayappearanceseconds = 4.0
+  delayappearanceseconds = 2.0
   path = resources/logo.png
   fadein = true
   fadeinspeed = 1.0
-  x = -59
-  width = 118
+  x = -68
+  width = 135
   action = addtexture
   actionid = 501f7b09-0a89-4600-8aa2-36a933fdb67d1691535837466
-  y = -98
+  y = -143
   delayappearance = true
   delayappearanceeverytime = false
-  height = 100
+  height = 113
 }
 
 customization {
-  orientation = mid-centered
-  delayappearanceseconds = 4.0
+  orientation = bottom-centered
+  delayappearanceseconds = 2.0
   path = resources/crysis_studio.png
   fadein = true
   fadeinspeed = 1.0
-  x = -50
-  width = 100
+  x = -38
+  width = 73
   action = addtexture
   actionid = 60565dfd-d362-4bd5-8a6a-ef88921048d61691538160225
-  y = 91
+  y = -74
   delayappearance = true
   delayappearanceeverytime = false
-  height = 100
+  height = 73
 }
 

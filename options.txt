@@ -26,7 +26,7 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:0.5
-renderDistance:12
+renderDistance:29
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
@@ -36,8 +36,8 @@ graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"true"
-resourcePacks:["loadmyresources.hiddenpack","vanilla","Fabric Mods","file/Crysis ResourcePack by JAVIxcr.zip"]
+renderClouds:"false"
+resourcePacks:["loadmyresources.hiddenpack","Fabric Mods","vanilla","file/Crysis ResourcePack by JAVIxcr.zip"]
 incompatibleResourcePacks:["loadmyresources.hiddenpack"]
 lastServer:161.129.182.138:25565
 lang:es_es
@@ -116,8 +116,8 @@ key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:0.5198831
-soundCategory_music:0.0
+soundCategory_master:0.807083
+soundCategory_music:0.2059034
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
