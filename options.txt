@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["loadmyresources.hiddenpack","Fabric Mods","vanilla","file/Crysis ResourcePack by JAVIxcr.zip"]
+resourcePacks:["loadmyresources.hiddenpack","vanilla","Fabric Mods","file/Crysis ResourcePack by JAVIxcr.zip"]
 incompatibleResourcePacks:["loadmyresources.hiddenpack"]
 lastServer:161.129.182.138:25565
 lang:es_es

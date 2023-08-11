@@ -10,7 +10,7 @@ customization-meta {
 
 customization {
   restart_on_load = false
-  name = onlyup_269aeac93a324126
+  name = onlyup_4b9d4d0db6514d8f
   action = animatebackground
 }
 
@@ -61,7 +61,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  seconds = 2.0
+  seconds = 5.0
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -100,7 +100,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 2.0
+  seconds = 5.0
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -229,7 +229,7 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 5.0
   buttonaction = joinserver;161.129.182.138:25565%btnaction_splitter_fm%
   backgroundhovered = resources/jugar2.png
   label = 
@@ -249,7 +249,7 @@ customization {
 
 customization {
   orientation = mid-centered
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 5.0
   path = resources/logo.png
   fadein = true
   fadeinspeed = 1.0
@@ -265,7 +265,7 @@ customization {
 
 customization {
   orientation = bottom-centered
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 5.0
   path = resources/crysis_studio.png
   fadein = true
   fadeinspeed = 1.0
