@@ -1,0 +1,327 @@
+[01:45:09] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.22
+[01:45:10] [main/INFO]: Loading 68 mods:
+	- cloth-config 10.1.105
+	   \-- cloth-basic-math 0.6.1
+	- customsplashscreen 2.1.0
+	   \-- midnightlib 1.3.0
+	- fabric-api 0.86.1+1.19.4
+	   |-- fabric-api-base 0.4.28+737a6ee8f4
+	   |-- fabric-api-lookup-api-v1 1.6.29+504944c8f4
+	   |-- fabric-biome-api-v1 13.0.9+10ce000ff4
+	   |-- fabric-block-api-v1 1.0.8+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.38+10ce000ff4
+	   |-- fabric-client-tags-api-v1 1.1.1+0eee1254f4
+	   |-- fabric-command-api-v1 1.2.31+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.10+10ce000ff4
+	   |-- fabric-commands-v0 0.2.48+df3654b3f4
+	   |-- fabric-containers-v0 0.1.58+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.14+10ce000ff4
+	   |-- fabric-convention-tags-v1 1.5.3+6d727b51f4
+	   |-- fabric-crash-report-info-v1 0.2.17+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.5.1+26f09d40f4
+	   |-- fabric-dimensions-v1 2.1.49+10ce000ff4
+	   |-- fabric-entity-events-v1 1.5.17+10ce000ff4
+	   |-- fabric-events-interaction-v0 0.6.1+4b6b93f0f4
+	   |-- fabric-events-lifecycle-v0 0.2.56+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.35+a1ccd7bff4
+	   |-- fabric-item-api-v1 2.1.21+10ce000ff4
+	   |-- fabric-item-group-api-v1 3.0.10+8400c67ef4
+	   |-- fabric-key-binding-api-v1 1.0.35+504944c8f4
+	   |-- fabric-keybindings-v0 0.2.33+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.19+10ce000ff4
+	   |-- fabric-loot-api-v2 1.1.32+10ce000ff4
+	   |-- fabric-loot-tables-v1 1.1.36+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.5+53c11dadf4
+	   |-- fabric-mining-level-api-v1 2.1.44+10ce000ff4
+	   |-- fabric-model-loading-api-v1 1.0.2+3a1ea2f1f4
+	   |-- fabric-models-v0 0.4.1+a0255436f4
+	   |-- fabric-networking-api-v1 1.3.5+10ce000ff4
+	   |-- fabric-networking-v0 0.3.45+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.1.1+d63b52eaf4
+	   |-- fabric-particles-v1 1.1.1+86d48884f4
+	   |-- fabric-recipe-api-v1 1.0.12+10ce000ff4
+	   |-- fabric-registry-sync-v0 2.3.1+95ae8716f4
+	   |-- fabric-renderer-api-v1 2.4.1+a0255436f4
+	   |-- fabric-renderer-indigo 1.4.1+07902599f4
+	   |-- fabric-renderer-registries-v1 3.2.42+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.32+10ce000ff4
+	   |-- fabric-rendering-fluids-v1 3.0.25+10ce000ff4
+	   |-- fabric-rendering-v0 1.1.45+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.5+10ce000ff4
+	   |-- fabric-resource-conditions-api-v1 2.3.3+10ce000ff4
+	   |-- fabric-resource-loader-v0 0.11.7+8400c67ef4
+	   |-- fabric-screen-api-v1 1.0.49+10ce000ff4
+	   |-- fabric-screen-handler-api-v1 1.3.24+10ce000ff4
+	   |-- fabric-sound-api-v1 1.0.11+10ce000ff4
+	   |-- fabric-transfer-api-v1 3.3.0+7bf81db9f4
+	   \-- fabric-transitive-access-wideners-v1 3.3.0+1b5f819af4
+	- fabricloader 0.14.22
+	- fancymenu 2.14.9
+	- ferritecore 5.2.0
+	- iris 1.6.5
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre13
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- konkrete 1.6.1
+	- loadmyresources 1.0.4
+	- minecraft 1.19.4
+	- sodium 0.4.10+build.24
+	- voicechat 1.19.4-2.4.18
+[01:45:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/danie/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[01:45:11] [main/INFO]: Compatibility level set to JAVA_17
+[01:45:11] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 3 override(s) found
+[01:45:11] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer)
+[01:45:11] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinCuboid' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[01:45:11] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinModelPart' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[01:45:11] [main/WARN]: Force-disabling mixin 'features.gui.font.MixinGlyphRenderer' as rule 'mixin.features.gui.font' (added by mods [iris]) disables it and children
+[01:45:11] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[01:45:16] [Datafixer Bootstrap/INFO]: 180 Datafixer optimizations took 108 milliseconds
+[01:45:17] [Render thread/INFO]: Launching a new process to probe the system configuration!
+[01:45:18] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[01:45:18] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+[01:45:18] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 536.99
+[01:45:18] [Render thread/WARN]: Enabling workaround for NVIDIA graphics drivers on Windows (issue #1486)
+[01:45:18] [Render thread/WARN]: One or more workarounds were enabled to prevent crashes or other issues on your system. You may need to update your graphics drivers.
+[01:45:18] [Render thread/INFO]: [LOAD MY RESOURCES] PackHandler initialized!
+[01:45:18] [Render thread/INFO]: [LOAD MY RESOURCES] Pack registered!
+[01:45:18] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:45:19] [Render thread/INFO]: Setting user: JAVIxcr
+[01:45:19] [Render thread/INFO]: [FANCYMENU] Loading v2.14.9 in client-side mode!
+[01:45:19] [Render thread/INFO]: [FANCYMENU] Level registry interactions allowed!
+[01:45:19] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[01:45:19] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[01:45:19] [Render thread/INFO]: Compatibility version 17
+[01:45:19] [Render thread/INFO]: Loading plugins
+[01:45:19] [Render thread/INFO]: Loaded 0 plugin(s)
+[01:45:19] [Render thread/INFO]: Initializing plugins
+[01:45:19] [Render thread/INFO]: Initialized 0 plugin(s)
+[01:45:19] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[01:45:19] [Render thread/INFO]: Using Cloth Config GUI
+[01:45:19] [Render thread/INFO]: Loading Opus
+[01:45:19] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[01:45:19] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[01:45:20] [Render thread/INFO]: Debug functionality is disabled.
+[01:45:20] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[01:45:20] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[01:45:20] [Render thread/INFO]: Shaders are disabled
+[01:45:20] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01:45:20] [Render thread/INFO]: Hardware information:
+[01:45:20] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 5500 
+[01:45:20] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 536.99)
+[01:45:20] [Render thread/INFO]: OS: Windows 10 (10.0)
+[01:45:21] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (cloth-config, customsplashscreen, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu, iris, konkrete, loadmyresources, midnightlib, sodium, voicechat), black_icons, loadmyresources.hiddenpack
+[01:45:21] [Render thread/ERROR]: Failed to get filter section from pack loadmyresources.hiddenpack
+[01:45:21] [Render thread/INFO]: [FANCYMENU] Pre-loading animations if enabled in config..
+[01:45:21] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[01:45:21] [Render thread/INFO]: [FANCYMENU] LOADING ANIMATION TEXTURES! THIS CAUSES THE LOADING SCREEN TO FREEZE FOR A WHILE!
+[01:45:21] [Render thread/INFO]: [FANCYMENU] FINISHED LOADING ANIMATION TEXTURES!
+[01:45:21] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[01:45:21] [Render thread/INFO]: [STDOUT]: [KONKRETE] Running PostLoadingEvents for mod: fancymenu
+[01:45:21] [Render thread/INFO]: [FANCYMENU] AnimationHandler: Animation registered: onlyup_4b9d4d0db6514d8f
+[01:45:21] [Render thread/INFO]: [STDOUT]: [KONKRETE] PostLoadingEvents completed for mod: fancymenu
+[01:45:21] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[01:45:21] [Render thread/ERROR]: [FANCYMENU] Unable to set custom icons: 'icon16x16.png' or 'icon32x32.png' missing!
+[01:45:21] [Render thread/INFO]: [FANCYMENU] Forced window to fullscreen!
+[01:45:22] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[01:45:22] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[01:45:22] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[01:45:22] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:45:22] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[01:45:22] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[01:45:22] [Render thread/INFO]: Sound engine started
+[01:45:22] [Render thread/INFO]: Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/signs.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/armor_trims.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/chest.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 64x64x1 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:45:22] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/beds.png-atlas
+[01:45:23] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:45:23] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[01:45:23] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:45:23] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:45:43] [Render thread/INFO]: JsonPlaceholder cache successfully cleared!
+[01:45:43] [Render thread/INFO]: WebTextPlaceholder cache successfully cleared!
+[01:45:43] [Render thread/INFO]: V2 JsonPlaceholder cache successfully cleared!
+[01:45:43] [Render thread/INFO]: V2 WebTextPlaceholder cache successfully cleared!
+[01:45:43] [Render thread/INFO]: [FancyMenu] Successfully cleared cached once-per-session ticker elements.
+[01:45:43] [Render thread/INFO]: [FANCYMENU] PlayerEntity element cache cleared!
+[01:46:35] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (cloth-config, customsplashscreen, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu, iris, konkrete, loadmyresources, midnightlib, sodium, voicechat), black_icons, file/Crysis ResourcePack by JAVIxcr.zip, loadmyresources.hiddenpack
+[01:46:46] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[01:46:46] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[01:46:46] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[01:46:46] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:46:46] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[01:46:46] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[01:46:46] [Render thread/INFO]: Sound engine started
+[01:46:46] [Render thread/INFO]: Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/signs.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/armor_trims.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/chest.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 64x64x1 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/beds.png-atlas
+[01:46:46] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:46:46] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:46:46] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:47:49] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (cloth-config, customsplashscreen, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu, iris, konkrete, loadmyresources, midnightlib, sodium, voicechat), file/Crysis ResourcePack by JAVIxcr.zip, black_icons, loadmyresources.hiddenpack
+[01:47:59] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[01:47:59] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[01:47:59] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[01:47:59] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:47:59] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[01:47:59] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[01:47:59] [Render thread/INFO]: Sound engine started
+[01:47:59] [Render thread/INFO]: Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/signs.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 512x512x1 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/armor_trims.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 256x256x1 minecraft:textures/atlas/chest.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 64x64x1 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 512x256x1 minecraft:textures/atlas/beds.png-atlas
+[01:47:59] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:47:59] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:47:59] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:48:25] [Render thread/INFO]: JsonPlaceholder cache successfully cleared!
+[01:48:25] [Render thread/INFO]: WebTextPlaceholder cache successfully cleared!
+[01:48:25] [Render thread/INFO]: V2 JsonPlaceholder cache successfully cleared!
+[01:48:25] [Render thread/INFO]: V2 WebTextPlaceholder cache successfully cleared!
+[01:48:25] [Render thread/INFO]: [FancyMenu] Successfully cleared cached once-per-session ticker elements.
+[01:48:25] [Render thread/INFO]: [FANCYMENU] PlayerEntity element cache cleared!
+[01:48:35] [Render thread/INFO]: JsonPlaceholder cache successfully cleared!
+[01:48:35] [Render thread/INFO]: WebTextPlaceholder cache successfully cleared!
+[01:48:35] [Render thread/INFO]: V2 JsonPlaceholder cache successfully cleared!
+[01:48:35] [Render thread/INFO]: V2 WebTextPlaceholder cache successfully cleared!
+[01:48:35] [Render thread/INFO]: [FancyMenu] Successfully cleared cached once-per-session ticker elements.
+[01:48:35] [Render thread/INFO]: [FANCYMENU] PlayerEntity element cache cleared!
+[01:48:59] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option B
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option G
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option R
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option GXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option B
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RVIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option R
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXXI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BXII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIV
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BIX
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option BVI
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RXXIII
+[01:48:59] [Render thread/WARN]: Ignoring ambiguous string option RIV
+[01:48:59] [Render thread/ERROR]: Unrecognized clouds setting: false
+[01:48:59] [Render thread/WARN]: Unable to resolve shader pack option menu element "BLOOM_STRENGTH" defined in shaders.properties
+[01:48:59] [Render thread/INFO]: Profile: High (+0 options changed by user)
+[01:48:59] [Render thread/INFO]: Using shaderpack: RedHat_v34.0.zip
+[01:49:04] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[01:49:28] [Render thread/INFO]: Stopping!
